@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+*.sqlite3
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Audio files
+/audio/*
+!audio/.gitkeep  # Keep the folder itself
+
+# Streamlit config
+.streamlit/
+
+# Jupyter/Dev Tools
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Export files
+*.pdf
+*.csv

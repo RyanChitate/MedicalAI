@@ -1,12 +1,27 @@
-fastapi==0.110.0
-uvicorn==0.27.0
-typing_extensions>=4.5.0
-vosk
+# Web frameworks
+fastapi
+uvicorn
+
+# Database
+sqlalchemy
+pydantic
+
+# Transcription
+openai-whisper
+ffmpeg-python
 pydub
+
+# NLP
 spacy
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+# Frontend
 streamlit
 requests
-python-multipart
-supabase
-psycopg2-binary
-python-dotenv
+
+# Export (PDF, CSV)
+pandas
+fpdf
+
+# Optional: Supabase Python client if you plan to use it
+supabase-py
